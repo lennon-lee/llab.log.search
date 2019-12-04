@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan(value = { "com.llab.cronus.config", "com.llab.cronus.controller", "com.llab.cronus.service" })
-@EntityScan(value = { "com.llab.cronus.entity", "com.llab.cronus.repository" })
+@EntityScan(value = { "com.llab.cronus.entity" })
 public class CronusApplication {
 	
 	public static void main(String[] args) {
